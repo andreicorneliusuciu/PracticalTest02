@@ -13,22 +13,45 @@
     tools:context="practicaltest02.pdsd.systems.cs.pub.ro.practicaltest02.PracticalTest02MainActivity"
     tools:showIn="@layout/activity_practical_test02_main">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client"
+        />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/url_field"/>
-
+        android:id="@+id/adresa"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/port_server"/>
 
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/url_field"/>
+
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="initiere cerere"
         android:id="@+id/initiere_cerere_buton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/port_serv"/>
 
 
 </LinearLayout>
